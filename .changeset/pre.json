@@ -126,6 +126,7 @@
     "storyboard-pattern-validations",
     "storyboard-root-context",
     "storyboard-seeding-context",
+    "storyboard-validation-result-ids",
     "storyboard-version-negotiation",
     "strict-legacy-storyboards",
     "sync-accounts-followups",

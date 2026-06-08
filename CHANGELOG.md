@@ -1,5 +1,13 @@
 # Changelog
 
+## 9.0.0-beta.28
+
+### Minor Changes
+
+- 0ff96d8: feat(storyboard): echo authored validation ids in runner results
+
+  Storyboard validation entries may now declare stable `id` values, and the runner echoes those IDs unchanged on authored `ValidationResult` output across passing, failing, advisory, not-applicable, and cross-response checks. Compliance failure summaries preserve the first failed validation's ID, while runner-synthesized validations continue to omit IDs.
+
 ## 9.0.0-beta.27
 
 ### Minor Changes
